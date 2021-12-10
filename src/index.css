@@ -14,17 +14,56 @@ code {
 
 .app{
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+.app-wrapper{
+  display: flex;
+  flex-direction: row;
 }
 
 .news-feed{
-  background-color: red;
+  background-color: rgb(250, 167, 167);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0/ 0.2);
+  max-width: 300px;
 }
 
 .currency-converter{
-  background-color: aqua;
+  background-color: rgb(193, 235, 235);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0/ 0.2);
+  text-align: center;
 }
 
 .exchange-rate{
-  background-color: burlywood;
+  background-color: rgb(212, 233, 175);
+  box-shadow: 0 3px 10px rgb(0 0 0/ 0.2);
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.input-box{
+  background-color: rgb(218, 225, 239);
+  padding: 30px 30px 45px 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0/ 0.2);
+}
+
+button{
+  border: none;
+  float: right;
+  margin: 7px 0;
+  padding: 7px;
+}
+
+button:hover{
+  background-color: coral;
+  cursor: pointer;
 }
