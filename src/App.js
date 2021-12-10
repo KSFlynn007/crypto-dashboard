@@ -5,11 +5,12 @@ import NewsFeed from "./components/NewsFeed"
 const App = () => {
   return (
     <div className="app">
-      <CurrencyConverter></CurrencyConverter>
-      <NewsFeed></NewsFeed>
-
+      <h1>Crypto Dashboard</h1>
+      <div className="app-wrapper">
+        <CurrencyConverter/>
+        <NewsFeed/>
+      </div>
     </div>
-
   )
 }
 
