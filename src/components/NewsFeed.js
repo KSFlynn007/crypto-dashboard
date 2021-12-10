@@ -30,7 +30,7 @@ const NewsFeed = () => {
 
     return (
         <div className="news-feed">
-            <h2>NewsFeed</h2>
+            <h2>Newsfeed</h2>
             {first7?.map((article, _index) => 
             <div>
                 <p key={_index}>
