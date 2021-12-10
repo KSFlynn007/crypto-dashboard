@@ -1,6 +1,20 @@
-# Packages Used
+# Crypto Dashboard
+
+## Packages Used
 Axios
 Create-react-app
+
+# API
+Alpha Vantage API [Documentation](https://www.alphavantage.co/documentation/#crypto-exchange)
+
+Crypto News Live [Documentation](https://rapidapi.com/DIlyanBarbov/api/crypto-news-live/)
+
+Both APIs/endpoints being accessed via free subscription to [RapidAPI](https://rapidapi.com/hub)
+
+
+
+
+
 
 # Getting Started with Create React App
 
