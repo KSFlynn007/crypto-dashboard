@@ -2,7 +2,7 @@
 
 A crypto currency dashboard created using [Create React App](https://github.com/facebook/create-react-app) and multiple currency APIs. 
 
-## Hosted on gh-pages
+## Hosted on Heroku
 Check out the live application here [crypto-dashboard](www.google.ca)
 
 ## Key Node Packages Used
