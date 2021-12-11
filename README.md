@@ -9,8 +9,6 @@ Check out the live application on Heroku here [cryptcurrency-dashboard](https://
 - react v.0.24.0
 - axios v.17.0.2
 
-Check out the full list of dependencies in package.json
-
 ## APIs Used
 1. Alpha Vantage API [Documentation](https://www.alphavantage.co/documentation/#crypto-exchange)
 
@@ -21,6 +19,10 @@ Both APIs/endpoints being accessed via free subscription to [RapidAPI](https://r
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm i`
+
+To install all the packages.
 
 ### `npm start`
 
