@@ -5,7 +5,7 @@ import NewsFeed from "./NewsFeed";
 
 const CurrencyConverter = () => {
     
-    const currencies = ['BTC', 'ETH','CAD', 'XRP', 'LTC', 'ADA'];
+    const currencies = ['BTC', 'ETH','CAD', 'XRP', 'ADA'];
 
     const [chosenPrimaryCurrency, setChosenPrimaryCurrency] = useState('BTC');
     const [chosenSecondaryCurrency, setChosenSecondaryCurrency] = useState('BTC');
