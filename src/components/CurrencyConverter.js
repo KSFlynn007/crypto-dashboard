@@ -1,6 +1,7 @@
 import ExchangeRate from "./ExchangeRate"
 import { useState } from "react";
 import axios from "axios";
+import NewsFeed from "./NewsFeed";
 
 const CurrencyConverter = () => {
     
@@ -42,6 +43,7 @@ const CurrencyConverter = () => {
     }
 
   return (
+      <>
     <div className="currency-converter">
       <h2>Currency Converter</h2>
 
@@ -106,6 +108,10 @@ const CurrencyConverter = () => {
         </ExchangeRate>
 
     </div>
+    <NewsFeed
+        currency1={exchangedData.primaryCurrency}
+        currency2={exchangedData.secondaryCurrency}/>
+    </>
 
   )
 }

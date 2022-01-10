@@ -12,7 +12,7 @@ Check out the live application on Heroku here [cryptcurrency-dashboard](https://
 ## APIs Used
 1. Alpha Vantage API [Documentation](https://www.alphavantage.co/documentation/#crypto-exchange)
 
-2. Crypto News Live [Documentation](https://rapidapi.com/DIlyanBarbov/api/crypto-news-live/)
+2. Mbourm Finance API [Documentation](https://rapidapi.com/sparior/api/mboum-finance/)
 
 Both APIs/endpoints being accessed via free subscription to [RapidAPI](https://rapidapi.com/hub)
 
